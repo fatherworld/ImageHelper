@@ -1,0 +1,23 @@
+:#if OS_ALVA == OS_Windows
+gettimeofday
+:#endif
+startTime
+stopTime
+diffTime
+Time
+dump_init_temp
+dump_temp
+dump_bmp
+start_filedump_temp
+dumpbuffer2file_temp
+log2file_temp
+end_filedump_temp
+IntTo4Bytes_D
+IntTo2Bytes_D
+WriteFileHeader_D
+WriteFileInfoHead_D
+WriteBMP_D
+dump_bmp_float
+dump_bmp_uChar
+//global variable
+dumpbuffer

@@ -1,0 +1,38 @@
+﻿  Dump.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+c:\users\user\desktop\imagehelper\test\imagehelpertest\debugtools\src\dump.c(418): warning C4013: “load_matrix_float”未定义；假设外部返回 int
+  AlvaTimer.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  QuarternionRotationMatrix.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  EulerRotationMatrix.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  ImageRotate.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  ImageConverter.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4802): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4822): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4842): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4861): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4881): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4938): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4958): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4978): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4998): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(5020): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+  BmpHelper.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  正在生成代码...
+  Main.cpp
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+Dump.obj : error LNK2019: 无法解析的外部符号 load_matrix_float，该符号在函数 load_matrix 中被引用
+C:\Users\User\Desktop\ImageHelper\Test\ImageHelperTest\x64\Debug\ImageRotateTest.exe : fatal error LNK1120: 1 个无法解析的外部命令

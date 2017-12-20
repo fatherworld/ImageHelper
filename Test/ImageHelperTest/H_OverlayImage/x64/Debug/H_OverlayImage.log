@@ -1,0 +1,45 @@
+﻿  AndroidHelper.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  Dump.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  AlvaTimer.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  QuarternionRotationMatrix.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  EulerRotationMatrix.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  ImageRotate.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  ImageFilter.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  ImageConverter.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4804): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4824): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4844): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4863): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4883): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4940): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4960): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4980): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(5000): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(5022): warning C4244: “函数”: 从“double”转换到“std::size_t”，可能丢失数据
+  BmpHelper.c
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  正在生成代码...
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4763): warning C4716: “YUYV_2YUV420p”: 必须返回一个值
+c:\users\user\desktop\imagehelper\core\src\imageconverter.c(4673): warning C4716: “YVYU_2YUV420p”: 必须返回一个值
+  Main.cpp
+  Info(No harm): Dump is turned on.
+  Info(No harm): Flow_Track is turned on.
+  H_OverlayImage.vcxproj -> C:\Users\User\Desktop\ImageHelper\Test\ImageHelperTest\x64\Debug\H_OverlayImage.exe
+  H_OverlayImage.vcxproj -> C:\Users\User\Desktop\ImageHelper\Test\ImageHelperTest\x64\Debug\H_OverlayImage.pdb (Full PDB)

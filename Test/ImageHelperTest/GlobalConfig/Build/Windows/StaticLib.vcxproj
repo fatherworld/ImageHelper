@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--此库使用方法
+    在同文件的<PropertyGroup Label="UserMacros" />前加入引用
+  	<Import Project="$(SolutionDir)\..\..\Shared\GLobalConfig\Build\Windows\StaticLib.vcxproj" />
+    此处用于通过绝对路径引用本库
+
+    在同文件的<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">等所有标签中加入
+        <ClCompile>
+            <AdditionalOptions>$(Debug_32_Define) %(AdditionalOptions)</AdditionalOptions>
+        </ClCompile>
+    此处用于配置头文件引用路径
+  -->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Release_32_Define>/DOS_ALVA=OS_Windows /DCPU_ALVA=CPU_x86 /DDebugInfo_Switch=Release_Alva /DAlva_Use_Version=Alva_CL_Version</Release_32_Define>
+    <Release_64_Define>/DOS_ALVA=OS_Windows /DCPU_ALVA=CPU_x64 /DDebugInfo_Switch=Release_Alva /DAlva_Use_Version=Alva_CL_Version</Release_64_Define>
+    <Debug_32_Define>/DOS_ALVA=OS_Windows /DCPU_ALVA=CPU_x86 /DDebugInfo_Switch=Debug_Alva /DAlva_Use_Version=Alva_CL_Version</Debug_32_Define>
+    <Debug_64_Define>/DOS_ALVA=OS_Windows /DCPU_ALVA=CPU_x64 /DDebugInfo_Switch=Debug_Alva /DAlva_Use_Version=Alva_CL_Version</Debug_64_Define>
+  </PropertyGroup>
+</Project>

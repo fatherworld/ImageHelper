@@ -1,0 +1,10 @@
+getJniHolder
+setVM
+setJNIEnv
+setContext
+setAssetManager
+setJniHolderInited
+isJniHolderInited
+Android_GetPackageName
+Jstring2CStr
+readData

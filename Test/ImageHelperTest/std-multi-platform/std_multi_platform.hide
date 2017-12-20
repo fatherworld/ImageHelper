@@ -1,0 +1,4 @@
+//aligned_malloc.c
+aligned_malloc
+aligned_free
+isAligned
